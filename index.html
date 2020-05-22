@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function fatorial (num) {
+    var result = 0;
+if (num < 0) {
+    alert("apenas numeros inteiros maiores ou igual a zero");
+} else{
+    if (num == 0) {
+        num = 1;
+    } 
+        result = num;
+        while (num>1) {
+            num--;
+            result = result * num;
+        }
+        alert(result);
+    }
+}
+</script>
+</head>
+<body>
+
+<h2>JavaScript in Head</h2>
+
+<p id="demo">A Paragraph.</p>
+
+<button type="button" onclick="fatorial(5)">Try it</button>
+
+</body>
+</html> 
