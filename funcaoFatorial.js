@@ -14,4 +14,3 @@ function fatorial (num) {
         alert(result);
     }
 }
-
